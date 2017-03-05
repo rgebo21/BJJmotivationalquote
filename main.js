@@ -41,7 +41,7 @@ $(document).ready(function() {
 });
     
     
-  var images = ["bjj2.jpg", "bjj3.jpg"];
+  var images = ["bjj2.jpg", "bjj3.jpg", "bjj4.jpg", "bjj5.jpg","bjj6.jpg","bjj7.jpg","bjj8.jpg"];
         $(function () {
             var i = 0;
             $("#dvImage").css("background-image", "url(images/" + images[i] + ")");
@@ -54,6 +54,6 @@ $(document).ready(function() {
                     $(this).css("background-image", "url(images/" + images[i] + ")");
                     $(this).fadeIn(2000);
                 });
-            }, 6000);
+            }, 15000);
         });
 
