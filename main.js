@@ -50,10 +50,10 @@ $(document).ready(function() {
                 if (i == images.length) {
                     i = 0;
                 }
-                $("#dvImage").fadeOut("slow", function () {
+                $("#dvImage").fadeOut(2000, function () {
                     $(this).css("background-image", "url(images/" + images[i] + ")");
-                    $(this).fadeIn("slow");
+                    $(this).fadeIn(2000);
                 });
-            }, 1000);
+            }, 6000);
         });
 
